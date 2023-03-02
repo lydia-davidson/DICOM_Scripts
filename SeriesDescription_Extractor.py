@@ -15,3 +15,5 @@ for path, sub_dirs, files in os.walk(my_dir):  #Traverses directory recursively 
             a = [file , fn.SeriesDescription]   #Output information want to display (file name and series descr tag)
             print(a)
             f.writelines("%s\n" % a)          #Saves results in text file
+
+            
